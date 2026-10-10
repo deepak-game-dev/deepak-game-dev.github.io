@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deepak K — Gameplay Programmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a111e;--panel:#101b2f;--ink:#e8eef9;--mute:#93a4bf;--line:#1d2e4b;--acc:#4f8ff7;--acc2:#8bb8ff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a111e;--panel:#101b2f;--ink:#e8eef9;--mute:#93a4bf;--line:#1d2e4b;--acc:#4f8ff7;--acc2:#8bb8ff}}
+:root[data-theme="dark"]{--bg:#0a111e;--panel:#101b2f;--ink:#e8eef9;--mute:#93a4bf;--line:#1d2e4b;--acc:#4f8ff7;--acc2:#8bb8ff}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Chakra Petch',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.6;font-size:17px}
+a{color:inherit}
+a:focus-visible,button:focus-visible,canvas:focus-visible,input:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:14px;flex-wrap:wrap}
+header.top strong{font-weight:700;font-size:18px}
+nav a{margin-left:20px;text-decoration:none;color:var(--mute);font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{padding:48px 0 70px;max-width:760px}
+h1{font-size:clamp(48px,9vw,92px);line-height:.92;margin:0 0 14px;font-weight:700;letter-spacing:-.02em}
+.role{font-size:22px;font-weight:600;color:var(--acc2);margin:0 0 4px}
+.tag{color:var(--mute);margin:0 0 18px}
+.intro{color:var(--mute);max-width:46ch;margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 18px;border:2px solid var(--acc);border-radius:4px;text-decoration:none;font-weight:600;background:var(--acc);color:#06101f}
+.btn.alt{background:transparent;color:var(--ink)}
+.btn:hover{border-color:var(--acc2)}
+section{padding:52px 0;border-top:1px solid var(--line)}
+h2{font-size:32px;margin:0 0 22px;font-weight:700}
+.about p{max-width:68ch;color:var(--mute);margin:0 0 14px}
+.about p:first-child{color:var(--ink);font-size:19px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px}
+.box h3{margin:0 0 10px;font-size:18px;color:var(--acc2)}
+ul{margin:0;padding-left:1.1em}
+li{margin-bottom:5px}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.proj{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:8px;padding:22px;display:flex;flex-direction:column}
+.proj h3{margin:0 0 12px;font-size:22px}
+.phase{color:var(--acc2);font-weight:600;margin:2px 0 12px}
+.proj p{margin:0 0 12px;color:var(--mute)}
+.tech{font-size:14px;margin-top:auto}
+.proj a{margin-top:10px;font-weight:600;color:var(--acc2)}
+.contact li{list-style:none;margin-bottom:8px}
+.contact ul{padding:0}
+.contact a{color:var(--acc2);font-weight:600}
+footer{padding:30px 0 48px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+@media (max-width:820px){.skills,.projects{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><strong>Deepak K</strong>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></header>
+
+<main>
+<div class="hero">
+<div>
+<h1>DEEPAK K</h1>
+<p class="role">Aspiring Gameplay Programmer</p>
+<p class="tag">C++ | Gameplay Systems | AI | Physics</p>
+<p class="intro">I'm an aspiring Gameplay Programmer focused on C++ and the engineering behind interactive gameplay systems. I build projects to strengthen my understanding of gameplay architecture, AI, physics, combat, and player interactions.</p>
+<div class="btns"><a class="btn" href="#projects">View my projects</a><a class="btn alt" href="https://github.com/deepak-game-dev">GitHub profile</a><a class="btn alt" href="#contact">Contact me</a></div>
+</div>
+</div>
+
+<section id="about" class="about">
+<h2>About me</h2>
+<p>I'm an aspiring Gameplay Programmer working toward a career in AAA game development.</p>
+<p>My primary focus is C++ and the engineering behind interactive gameplay systems. Through hands-on projects, I'm developing my understanding of gameplay architecture, enemy AI, collision detection, pathfinding, combat mechanics, and mission systems.</p>
+<p>I enjoy understanding how individual systems connect to create cohesive gameplay experiences. My current goal is to strengthen my C++ engineering skills, build more advanced gameplay projects, and gain practical experience with a professional game engine.</p>
+<p>I'm working toward a long-term career contributing to ambitious games at an AAA studio.</p>
+</section>
+
+<section id="skills">
+<h2>Technical skills</h2>
+<div class="skills">
+<div class="box"><h3>Programming</h3><ul><li>C++</li><li>Object-Oriented Programming (OOP)</li><li>Data Structures and Algorithms</li></ul></div>
+<div class="box"><h3>Gameplay engineering</h3><ul><li>Gameplay Architecture</li><li>Player Movement</li><li>Collision Detection</li><li>Gameplay AI</li><li>Finite State Machines (FSM)</li><li>Pathfinding and A* Algorithm</li><li>Combat Systems</li><li>Mission and Interaction Systems</li></ul></div>
+<div class="box"><h3>Tools</h3><ul><li>Visual Studio</li><li>Git</li><li>GitHub</li></ul></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured projects</h2>
+<div class="projects">
+<div class="proj"><h3>Project Shadow Protocol</h3><p>A C++ gameplay prototype featuring player movement, enemy AI, collision detection and resolution, combat, keyboard input handling, collectible interactions, and mission extraction objectives.</p><div class="tech">Technologies: C++, Visual Studio, Windows API</div><a href="https://github.com/deepak-game-dev/Project-Shadow-Protocol">View on GitHub</a></div>
+<div class="proj"><h3>Project Nightfall</h3><p>A tactical stealth and extraction gameplay project focused on advanced gameplay systems, A* pathfinding, grid-based navigation, line-of-sight checks, enemy patrol, detection and chase behavior, combat, and mission states.</p><div class="tech">Technologies: C++, Visual Studio</div><a href="https://github.com/deepak-game-dev/Project-Nightfall">View on GitHub</a></div>
+<div class="proj"><h3>Project Eclipse</h3><p>A sci-fi research facility escape project focused on gameplay architecture, enemy AI, finite state machines, AI perception, combat, health systems, interactions, events, timers, cooldowns, and object spawning.</p><div class="tech">Technologies: C++, Visual Studio</div><a href="https://github.com/deepak-game-dev/Project-Eclipse">View on GitHub</a></div>
+<div class="proj"><h3>Project Vanguard</h3><p>A C++ gameplay programming project focused on connecting gameplay architecture, input handling, player movement, camera concepts, collision, and basic AI and perception.</p><div class="tech">Technologies: C++, Visual Studio</div><a href="https://github.com/deepak-game-dev/Project-Vanguard">View on GitHub</a></div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<p style="margin:0"><strong>B.Tech</strong><br><span style="color:var(--mute)">Meenakshi Sundararajan Engineering College</span></p>
+</section>
+
+<section id="goal">
+<h2>Career goal</h2>
+<p style="margin:0;max-width:68ch;color:var(--mute)">My long-term goal is to become a Gameplay Programmer at an AAA game studio, contributing to gameplay mechanics, AI systems, physics interactions, and engaging player experiences.</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<ul>
+<li>GitHub: <a href="https://github.com/deepak-game-dev">github.com/deepak-game-dev</a></li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/deepak-game-dev/">linkedin.com/in/deepak-game-dev</a></li>
+<li>Email: <a href="mailto:deepakkannan.work@gmail.com">deepakkannan.work@gmail.com</a></li>
+<li>Location: Chennai, India</li>
+</ul>
+</section>
+</main>
+<footer>Deepak K, Gameplay Programmer</footer>
+</div>
+
+</body>
+</html>
